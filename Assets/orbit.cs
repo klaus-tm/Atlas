@@ -4,7 +4,7 @@ public class Orbit : MonoBehaviour
 {
     //real value of gravitational constant is 6.67408 × 10-11
     //can increase to make thing go faster instead of increase timestep of Unity
-    readonly float G = 1f;
+    readonly float G = 1000f;
     GameObject[] celestials;
 
     [SerializeField]
