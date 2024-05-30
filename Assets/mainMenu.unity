@@ -1008,6 +1008,7 @@ MonoBehaviour:
   titleFadeController: {fileID: 634490568}
   mainMenuFadeController: {fileID: 973122836}
   exitConfirmFadeController: {fileID: 2081045389}
+  music: {fileID: 1020701094}
 --- !u!1 &973122834
 GameObject:
   m_ObjectHideFlags: 0
