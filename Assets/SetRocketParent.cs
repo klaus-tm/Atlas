@@ -29,9 +29,7 @@ public class SetRocketParent : MonoBehaviour
                 // Reset local rotation if needed
                 childObject.transform.localRotation = Quaternion.identity;
 
-                // Move the camera to the same position as the childObject
-                // Camera.main.transform.localPosition = new Vector3(0,parentCollider.radius*2.1f,0); // Position the camera at the center of the childObject
-                // Camera.main.transform.localRotation = Quaternion.identity; // Reset camera rotation
+                
             }
             else
             {
