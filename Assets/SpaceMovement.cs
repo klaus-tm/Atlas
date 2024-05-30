@@ -22,7 +22,7 @@ public class SpaceMovement : MonoBehaviour
 
         // Calculate the new rotation around the x-axis (up and down)
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -45f, 45f);
+        xRotation = Mathf.Clamp(xRotation, -70f, 70f);
 
         // Apply the rotation to the camera
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);

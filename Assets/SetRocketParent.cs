@@ -21,7 +21,7 @@ public class SetRocketParent : MonoBehaviour
                 float parentRadius = parentCollider.radius * parentObject.transform.localScale.y; // Adjust for potential scaling
 
                 // Calculate the position to place the child on top of the sphere
-                Vector3 relativePosition = new Vector3(0, parentCollider.radius+0.1f, 0);
+                Vector3 relativePosition = new Vector3(0, parentCollider.radius*2.065f, 0);
 
                 // Set the child's local position
                 childObject.transform.localPosition = relativePosition;
@@ -29,6 +29,9 @@ public class SetRocketParent : MonoBehaviour
                 // Reset local rotation if needed
                 childObject.transform.localRotation = Quaternion.identity;
 
+                // Move the camera to the same position as the childObject
+                // Camera.main.transform.localPosition = new Vector3(0,parentCollider.radius*2.1f,0); // Position the camera at the center of the childObject
+                // Camera.main.transform.localRotation = Quaternion.identity; // Reset camera rotation
             }
             else
             {
@@ -37,7 +40,7 @@ public class SetRocketParent : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Please assign both the child and parent GameObjects in the inspector.");
+            Debug.LogError("Please assign all GameObjects in the inspector.");
         }
     }
 }
