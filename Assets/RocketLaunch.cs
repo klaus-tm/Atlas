@@ -69,7 +69,7 @@ public class RocketLaunch : MonoBehaviour
             // Hide the third child object after 5 seconds
             if (thirdChild != null)
             {
-                StartCoroutine(HideThirdChildAfterDelay(3f));
+                StartCoroutine(HideThirdChildAfterDelay(1.5f));
             }
         }
     }
