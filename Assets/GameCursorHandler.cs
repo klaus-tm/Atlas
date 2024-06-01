@@ -13,6 +13,7 @@ public class SpaceMovement : MonoBehaviour
     private float defaultFOV;
     private float targetFOV;
     private float xRotation = 0f;
+    private bool isPaused = false; // Boolean to track if the game is paused
 
     void Start()
     {
@@ -33,6 +34,13 @@ public class SpaceMovement : MonoBehaviour
 
     void Update()
     {
+        // Handle right-click to stop time
+        if (Input.GetMouseButtonDown(1))
+        {
+            isPaused = !isPaused;
+            ToggleCelestialMovement(isPaused);
+        }
+
         // Get the mouse movement input
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -62,5 +70,21 @@ public class SpaceMovement : MonoBehaviour
 
         // Smoothly transition to the target FOV
         Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, targetFOV, Time.deltaTime * zoomSpeed);
+    }
+
+    void ToggleCelestialMovement(bool isPaused)
+    {
+        Orbit[] orbits = FindObjectsOfType<Orbit>();
+        foreach (Orbit orbit in orbits)
+        {
+            if (isPaused)
+            {
+                orbit.PauseMovement();
+            }
+            else
+            {
+                orbit.ResumeMovement();
+            }
+        }
     }
 }
