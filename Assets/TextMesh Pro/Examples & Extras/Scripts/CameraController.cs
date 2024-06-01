@@ -68,12 +68,14 @@ namespace TMPro.Examples
         // Use this for initialization
         void Start()
         {
+            
             if (CameraTarget == null)
             {
                 // If we don't have a target (assigned by the player, create a dummy in the center of the scene).
                 dummyTarget = new GameObject("Camera Target").transform;
                 CameraTarget = dummyTarget;
             }
+            
         }
 
         // Update is called once per frame
