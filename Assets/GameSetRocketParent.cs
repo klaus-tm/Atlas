@@ -51,7 +51,7 @@ public class SetRocketParent : MonoBehaviour
                         relativePosition.y = 1.282f;
                         break;
                     case "Pluto":
-                        relativePosition.y = 7.85f;
+                        relativePosition.y = 2.12f;
                         break;
                     case "Moon":
                         relativePosition.y = 5.09f;
@@ -117,7 +117,7 @@ public class SetRocketParent : MonoBehaviour
                 childObject.transform.localPosition = new Vector3(0, 1.282f, 0);
                 break;
             case "Pluto":
-                childObject.transform.localPosition = new Vector3(0, 7.85f, 0);
+                childObject.transform.localPosition = new Vector3(0, 2.12f, 0);
                 break;
             case "Moon":
                 childObject.transform.localPosition = new Vector3(0, 5.09f, 0);
