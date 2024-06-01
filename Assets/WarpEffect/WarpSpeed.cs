@@ -24,68 +24,72 @@ public class WarpSpeed : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.R) && !warpActive)
         {
-            warpActive = true;
-            StartCoroutine(ActivateParticles());
+            StartCoroutine(ActivateWarpEffect());
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+    }
+
+    IEnumerator ActivateWarpEffect()
+    {
+        warpActive = true;
+
+        // Start the warp-in effect
+        StartCoroutine(ActivateParticles());
+
+        // Wait for 5 seconds
+        yield return new WaitForSeconds(3f);
+
+        // Manage the canvas
+        StartCoroutine(ManageCanvas());
+
+        // Wait for 3 seconds
+        yield return new WaitForSeconds(3f);
+
+        // Start the fade-out effect
+        StartCoroutine(FadeOutCanvas());
+    }
+
+    IEnumerator ManageCanvas()
+    {
+        float timer = 0f;
+
+        // Fade in the canvas
+        while (timer < 1.5f)
         {
-            warpActive = false;
-            StartCoroutine(ActivateParticles());
+            canvasGroup.alpha = Mathf.Lerp(0f, 1f, timer / 1.5f);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        // Wait for 1 second
+        yield return new WaitForSeconds(1f);
+
+        timer = 0f;
+
+        // Fade out the canvas
+        while (timer < 1.5f)
+        {
+            canvasGroup.alpha = Mathf.Lerp(1f, 0f, timer / 1.5f);
+            timer += Time.deltaTime;
+            yield return null;
         }
     }
 
     IEnumerator ActivateParticles()
     {
-        if (warpActive)
+        warpSpeedVFX.Play();
+        float timer = 0f;
+        float amount = 0f;
+
+        while (timer < 5f && warpActive)
         {
-            warpSpeedVFX.Play();
-            float amount = warpSpeedVFX.GetFloat("WarpAmount");
-            while (amount < 1 && warpActive)
-            {
-                amount += rate;
-                warpSpeedVFX.SetFloat("WarpAmount", amount);
-                yield return new WaitForSeconds(0.1f);
-            }
-
-            if (amount >= 1)
-            {
-                StartCoroutine(FadeInCanvas());
-            }
+            amount = Mathf.Lerp(0f, 1f, timer / 2f);
+            warpSpeedVFX.SetFloat("WarpAmount", amount);
+            timer += Time.deltaTime;
+            yield return null;
         }
-        else
-        {
-            float amount = warpSpeedVFX.GetFloat("WarpAmount");
-             
-            StartCoroutine(FadeOutCanvas());
-             
-            while (amount > 0 && !warpActive)
-            {
-                amount -= rate;
-                warpSpeedVFX.SetFloat("WarpAmount", amount);
-                yield return new WaitForSeconds(0.1f);
 
-                if (amount <= rate + 0)
-                {
-                    amount = 0;
-                    warpSpeedVFX.SetFloat("WarpAmount", amount);
-                    warpSpeedVFX.Stop();
-                }
-            }
-        }
-    }
-
-    IEnumerator FadeInCanvas()
-    {
-        if (canvasGroup == null) yield break;
-
-        while (canvasGroup.alpha < 1)
-        {
-            Debug.Log( canvasGroup.alpha);
-            canvasGroup.alpha += fadeRate;
-            yield return new WaitForSeconds(0.1f);
-        }
     }
 
     IEnumerator FadeOutCanvas()
@@ -94,8 +98,12 @@ public class WarpSpeed : MonoBehaviour
 
         while (canvasGroup.alpha > 0)
         {
-            canvasGroup.alpha -= fadeRate;
-            yield return new WaitForSeconds(0.1f);
+            canvasGroup.alpha -= fadeRate * Time.deltaTime;
+            yield return null;
         }
+
+        warpSpeedVFX.Stop();
+        warpSpeedVFX.SetFloat("WarpAmount", 0f); // Ensure warp amount is reset
+        warpActive = false; // Reset warp state
     }
 }
