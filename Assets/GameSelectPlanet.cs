@@ -14,6 +14,7 @@ public class SelectPlanet : MonoBehaviour
 
     void Start()
     {
+
         // Find the "Selected planet" and "Planet Info" TextMesh Pro components in the Canvas
         if (canvas != null)
         {
@@ -60,6 +61,58 @@ public class SelectPlanet : MonoBehaviour
         }
     }
 
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+    public void PlayCurrentPlanetTheme()
+    {
+        if (currentParent != null)
+        {
+            // Get the name of the current planet
+            string currentPlanetName = currentParent.name;
+
+            // Check the current planet name and play the corresponding theme
+            switch (currentPlanetName)
+            {
+                case "Mercury":
+                    audioManager.playTheme(audioManager.mercuryTheme);
+                    break;
+                case "Venus":
+                    audioManager.playTheme(audioManager.venusTheme);
+                    break;
+                case "Earth":
+                    audioManager.playTheme(audioManager.earthTheme);
+                    break;
+                case "Mars":
+                    audioManager.playTheme(audioManager.marsTheme);
+                    break;
+                case "Jupiter":
+                    audioManager.playTheme(audioManager.jupiterTheme);
+                    break;
+                case "Saturn":
+                    audioManager.playTheme(audioManager.saturnTheme);
+                    break;
+                case "Uranus":
+                    audioManager.playTheme(audioManager.uranusTheme);
+                    break;
+                case "Neptune":
+                    audioManager.playTheme(audioManager.neptuneTheme);
+                    break;
+                default:
+                    Debug.LogWarning("No theme found for the current planet: " + currentPlanetName);
+                    break;
+            }
+        }
+        else
+        {
+            Debug.LogError("Current parent not set.");
+        }
+    }
+
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button
@@ -77,6 +130,8 @@ public class SelectPlanet : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             StartCoroutine(SetNewParentAfterDelay(newParent, selectedPlanetText));
+            audioManager.StopMusic();
+            PlayCurrentPlanetTheme();
         }
     }
 
@@ -168,4 +223,5 @@ public class SelectPlanet : MonoBehaviour
             Debug.LogError("Planet does not have PlanetInfoHolder component.");
         }
     }
+
 }
