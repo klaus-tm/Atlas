@@ -13,15 +13,7 @@ MonoBehaviour:
   m_Name: EarthInfo
   m_EditorClassIdentifier: 
   planetName: "P\u0103m\xE2nt"
-  funFact: "Atlas a fost unul dintre titani, o ras\u0103 de divinit\u0103\u021Bi
-    puternice care au precedat zeii olimpieni. Atlas a fost un lider \xEEn r\u0103zboiul
-    titanilor \xEEmpotriva zeilor olimpieni, cunoscut sub numele de Titanomahia.
-    Dup\u0103 ce titanii au fost \xEEnvin\u0219i, Atlas a fost pedepsit de Zeus.
-    Ca pedeaps\u0103 pentru rolul s\u0103u \xEEn r\u0103zboi, Zeus l-a condamnat
-    pe Atlas s\u0103 poarte bolta cereasc\u0103 pe umeri pentru eternitate. Aceasta
-    a fost o sarcin\u0103 extrem de grea \u0219i obositoare, dar Atlas nu a avut
-    de ales. Hidrosfera sa lichid\u0103 este unic\u0103 printre planetele terestre.
-    Terra este singura planet\u0103 unde au fost observate pl\u0103ci tectonice.
+  funFact: "Terra este singura planet\u0103 unde au fost observate pl\u0103ci tectonice.
     Planeta P\u0103m\xE2nt are doar un satelit natural, Luna, care este singurul
     satelit mare al unei planete telurice din Sistemul Solar. Terra este adesea numit\u0103
     \"planeta albastr\u0103\" datorit\u0103 cantit\u0103\u021Bii mari de ap\u0103
@@ -31,12 +23,11 @@ MonoBehaviour:
     de radia\u021Biile solare d\u0103un\u0103toare \u0219i men\u021Bine temperatura
     planetar\u0103 \xEEntr-un interval favorabil vie\u021Bii. Cea mai \xEEnalt\u0103
     structur\u0103 montan\u0103 de pe Terra este Muntele Everest, care are o altitudine
-    de 8.848 metri deasupra nivelului m\u0103rii. Cel mai ad\xE2nc loc de pe Terra
-    este Groapa Marianelor, cu o ad\xE2ncime de aproximativ 11.034 metri. Terra are
-    un c\xE2mp magnetic puternic, care ne protejeaz\u0103 de particulele solare d\u0103un\u0103toare
-    \u0219i ajut\u0103 la crearea aurorelor boreale \u0219i australe. Luna are un
-    efect semnificativ asupra mareelor \u0219i a stabilit\u0103\u021Bii axei de rota\u021Bie
-    a P\u0103m\xE2ntului. Cuv\xE2ntul \"Terra\" provine din latin\u0103 \u0219i \xEEnseamn\u0103
-    \"p\u0103m\xE2nt\" sau \"\u021Bar\u0103\". Terra Mater, sau Tellus, reprezint\u0103
-    P\u0103m\xE2ntul \u0219i fertilitatea. Romanii o venerau ca zei\u021Ba care d\u0103
-    via\u021B\u0103 \u0219i sus\u021Bine toate formele de via\u021B\u0103 de pe P\u0103m\xE2nt. "
+    de 8.848 metri deasupra nivelului m\u0103rii. Terra are un c\xE2mp magnetic puternic,
+    care ne protejeaz\u0103 de particulele solare d\u0103un\u0103toare \u0219i ajut\u0103
+    la crearea aurorelor boreale \u0219i australe. Luna are un efect semnificativ
+    asupra mareelor \u0219i a stabilit\u0103\u021Bii axei de rota\u021Bie a P\u0103m\xE2ntului.
+    Cuv\xE2ntul \"Terra\" provine din latin\u0103 \u0219i \xEEnseamn\u0103 \"p\u0103m\xE2nt\"
+    sau \"\u021Bar\u0103\". Terra Mater, sau Tellus, reprezint\u0103 P\u0103m\xE2ntul
+    \u0219i fertilitatea. Romanii o venerau ca zei\u021Ba care d\u0103 via\u021B\u0103
+    \u0219i sus\u021Bine toate formele de via\u021B\u0103 de pe P\u0103m\xE2nt.  "

@@ -15,20 +15,14 @@ MonoBehaviour:
   planetName: Saturn
   funFact: "Saturn se distinge prin sistemul s\u0103u de inele u\u0219or de observat
     de pe P\u0103m\xE2nt. Inelele lui Saturn sunt alc\u0103tuite din particule mici
-    de roc\u0103 \u0219i ghea\u021B\u0103. Este compus \xEEn mare parte din hidrogen
-    \u0219i heliu. Saturn are 83 de sateli\u021Bi confirma\u021Bi; doi dintre ei,
-    Titan \u0219i Enceladus, poart\u0103 semne de activitate geologic\u0103, de\u0219i
-    ace\u0219tia sunt \xEEn mare parte alc\u0103tui\u021Bi din ghea\u021B\u0103.
+    de roc\u0103 \u0219i ghea\u021B\u0103.  Saturn are 83 de sateli\u021Bi confirma\u021Bi;
+    doi dintre ei, Titan \u0219i Enceladus, poart\u0103 semne de activitate geologic\u0103,
+    de\u0219i ace\u0219tia sunt \xEEn mare parte alc\u0103tui\u021Bi din ghea\u021B\u0103.
     Titan este singurul satelit din sistemul solar care posed\u0103 o atmosfer\u0103
-    substan\u021Bial\u0103. Titan are o atmosfer\u0103 dens\u0103 \u0219i lacuri
-    de metan lichid, fiind un loc de mare interes pentru cercetarea astrobiologic\u0103.
-    Enceladus, una dintre lunile lui Saturn, are gheizere care erup ap\u0103 \u0219i
-    particule de ghea\u021B\u0103 \xEEn spa\u021Biu. Aceste particule alimenteaz\u0103
-    inelul E al lui Saturn, f\u0103c\xE2ndu-l unul dintre cele mai interesante obiecte
-    din Sistemul Solar. Saturn este at\xE2t de u\u0219or \xEEnc\xE2t, dac\u0103 ar
-    exista un ocean suficient de mare, ar pluti \xEEn el. Are o densitate medie mai
-    mic\u0103 dec\xE2t cea a apei datorit\u0103 compozi\u021Biei sale gazoase. O
-    zi pe Saturn dureaz\u0103 doar aproximativ 10,7 ore, datorit\u0103 rota\u021Biei
+    substan\u021Bial\u0103.  Saturn este at\xE2t de u\u0219or \xEEnc\xE2t, dac\u0103
+    ar exista un ocean suficient de mare, ar pluti \xEEn el. Are o densitate medie
+    mai mic\u0103 dec\xE2t cea a apei datorit\u0103 compozi\u021Biei sale gazoase.
+    O zi pe Saturn dureaz\u0103 doar aproximativ 10,7 ore, datorit\u0103 rota\u021Biei
     sale rapide. Un an pe Saturn, adic\u0103 timpul necesar pentru o orbit\u0103
     complet\u0103 \xEEn jurul Soarelui, dureaz\u0103 aproximativ 29,5 ani tere\u0219tri.
     Saturn g\u0103zduie\u0219te furtuni masive, unele dintre ele fiind vizibile sub
