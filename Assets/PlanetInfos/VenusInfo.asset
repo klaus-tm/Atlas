@@ -13,32 +13,23 @@ MonoBehaviour:
   m_Name: VenusInfo
   m_EditorClassIdentifier: 
   planetName: Venus
-  funFact: "Este asem\u0103n\u0103toare ca m\u0103rime cu P\u0103m\xE2ntul (0,815
-    mase terestre) \u0219i, la fel ca \u0219i Terra, are o manta sub\u021Bire de
-    silicat deasupra unui nucleu de fier, o atmosfer\u0103 substan\u021Bial\u0103
-    \u0219i indicii ale unei activit\u0103\u021Bi geologice interne. Este cea mai
-    fierbinte planet\u0103, temperaturile de la suprafa\u021B\u0103 dep\u0103\u0219ind
-    400 \xB0C, cel mai probabil din cauza cantit\u0103\u021Bii de gaze cu efect de
-    ser\u0103 din atmosfer\u0103. O zi pe Venus este mai lung\u0103 dec\xE2t un an,
-    dur\xE2nd aproximativ 243 de zile terestre, \xEEn timp ce un an dureaz\u0103
-    doar 225 de zile terestre. Venus se rote\u0219te \xEEn direc\u021Bia opus\u0103
-    fa\u021B\u0103 de majoritatea planetelor din Sistemul Solar.  Temperatura pe
-    suprafa\u021Ba sa poate ajunge p\xE2n\u0103 la 465 de grade Celsius, suficient
-    de fierbinte pentru a topi plumbul. Aceasta se datoreaz\u0103 efectului de ser\u0103
-    extrem de puternic cauzat de atmosfera sa dens\u0103, plin\u0103 de dioxid de
-    carbon. Datorit\u0103 condi\u021Biilor extreme de pe Venus, explorarea planetei
-    a fost foarte dificil\u0103. Venus este cunoscut\u0103 ca fiind una dintre cele
-    mai str\u0103lucitoare obiecte de pe cerul nostru, dup\u0103 Soare \u0219i Lun\u0103.
-    Este adesea vizibil\u0103 dup\u0103 apusul Soarelui sau \xEEnainte de r\u0103s\u0103rit
-    \u0219i este denumit\u0103 \"Luceaf\u0103rul de sear\u0103\" sau \"Luceaf\u0103rul
-    de diminea\u021B\u0103\". Planeta Venus este denumit\u0103 dup\u0103 zei\u021Ba
-    roman\u0103 a iubirii \u0219i frumuse\u021Bii, Venus, datorit\u0103 str\u0103lucirii
-    sale intense \u0219i aspectului s\u0103u deosebit pe cerul nop\u021Bii. Venus
-    este unul dintre cele mai str\u0103lucitoare obiecte vizibile de pe P\u0103m\xE2nt,
-    fiind adesea mai str\u0103lucitoare dec\xE2t orice alt\u0103 stea sau planet\u0103.
-    \xCEn mitologia roman\u0103, Venus era asociat\u0103 cu frumuse\u021Bea \u0219i
-    iubirea, a\u0219a c\u0103 numele a fost considerat potrivit pentru aceast\u0103
-    planet\u0103 luminoas\u0103 \u0219i atr\u0103g\u0103toare. \xCEn multe culturi
-    antice, planeta Venus era privit\u0103 ca un simbol al frumuse\u021Bii \u0219i
-    al iubirii, \u0219i astfel, denumirea sa dup\u0103 zei\u021Ba Venus a fost considerat\u0103
-    foarte potrivit\u0103. "
+  facts:
+  - "Este cea mai fierbinte planet\u0103, temperaturile de la suprafa\u021B\u0103
+    dep\u0103\u0219ind 400 \xB0C, cel mai probabil din cauza cantit\u0103\u021Bii
+    de gaze cu efect de ser\u0103 din atmosfer\u0103. "
+  - "Venus este adesea numit\u0103 \"sora geam\u0103n\u0103\" a P\u0103m\xE2ntului
+    datorit\u0103 m\u0103rimii \u0219i compozi\u021Biei sale similare. Cu toate acestea,
+    condi\u021Biile de pe Venus sunt foarte diferite de cele de pe P\u0103m\xE2nt. "
+  - "O zi pe Venus este mai lung\u0103 dec\xE2t un an, dur\xE2nd aproximativ 243
+    de zile terestre, \xEEn timp ce un an dureaz\u0103 doar 225 de zile terestre.  "
+  - "Dac\u0103 ai putea sta pe suprafa\u021Ba sa, ai vedea Soarele r\u0103s\u0103rind
+    la vest \u0219i apun\xE2nd la est. Venus se rote\u0219te \xEEn direc\u021Bia
+    opus\u0103 fa\u021B\u0103 de majoritatea planetelor din Sistemul Solar. "
+  - "Este denumit\u0103 dup\u0103 zei\u021Ba roman\u0103 a iubirii \u0219i frumuse\u021Bii,
+    datorit\u0103 str\u0103lucirii sale intense \u0219i aspectului s\u0103u deosebit
+    pe cerul nop\u021Bii. Venus este unul dintre cele mai str\u0103lucitoare obiecte
+    vizibile de pe P\u0103m\xE2nt, fiind adesea mai str\u0103lucitoare dec\xE2t orice
+    alt\u0103 stea sau planet\u0103. Este adesea vizibil\u0103 dup\u0103 apusul Soarelui
+    sau \xEEnainte de r\u0103s\u0103rit \u0219i este denumit\u0103 \"Luceaf\u0103rul
+    de sear\u0103\" sau \"Luceaf\u0103rul de diminea\u021B\u0103\". "
+  funFact: 

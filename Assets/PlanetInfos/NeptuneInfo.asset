@@ -13,30 +13,23 @@ MonoBehaviour:
   m_Name: NeptuneInfo
   m_EditorClassIdentifier: 
   planetName: Neptun
-  funFact: "Neptun, de\u0219i este pu\u021Bin mai mic dec\xE2t Uranus, este mult
-    mai masiv (aproximativ 17 mase terestre) \u0219i prin urmare, mult mai dens.
-    Neptun este \xEEnso\u021Bit pe orbita sa de o mul\u021Bime de planete minore,
+  facts:
+  - "Neptun este \xEEnso\u021Bit pe orbita sa de o mul\u021Bime de planete minore,
     numite troienii lui Neptun, care au o rezonan\u021B\u0103 orbital\u0103 de 1:1
-    cu el. Neptun a fost prima planet\u0103 care a fost descoperit\u0103 matematic,
-    \xEEnainte de a fi observat\u0103. Astronomii au observat perturba\u021Biile
-    orbitale ale lui Uranus \u0219i au prev\u0103zut existen\u021Ba unei alte planete
-    care s\u0103 cauzeze aceste perturba\u021Bii. Neptun a fost apoi observat\u0103
-    pentru prima dat\u0103 \xEEn 1846 de c\u0103tre Johann Galle \u0219i Heinrich
-    d'Arrest. Neptun are cele mai puternice v\xE2nturi din Sistemul Solar, cu viteze
-    care pot dep\u0103\u0219i 2.000 de km/h. Aceste v\xE2nturi puternice sunt cauzate
-    de atmosfera dens\u0103 \u0219i de rota\u021Bia rapid\u0103 a planetei. Neptun
-    este cunoscut pentru schimb\u0103rile sale meteorologice dramatice. Se crede
-    c\u0103 aceste schimb\u0103ri sunt cauzate de absorb\u021Bia \u0219i eliberarea
-    de c\u0103ldur\u0103 \xEEn atmosfera sa \u0219i de rota\u021Bia sa rapid\u0103.
-    Acest lucru poate duce la apari\u021Bia de nori albi, uragane \u0219i alte fenomene
-    meteorologice neobi\u0219nuite. Neptun are un sistem de inele sub\u021Biri, dar
-    \xEEntunecate, compuse \xEEn principal din particule de praf \u0219i ghea\u021B\u0103.
-    Aceste inele sunt mult mai pu\u021Bin spectaculoase dec\xE2t cele ale lui Saturn,
-    dar sunt \xEEnc\u0103 importante pentru \xEEn\u021Belegerea originii \u0219i
-    evolu\u021Biei sistemului s\u0103u de inele. Neptun are cel pu\u021Bin 14 sateli\u021Bi
-    cunoscu\u021Bi, dintre care cel mai cunoscut este Triton. Triton este singurul
-    satelit mare din sistemul solar care orbiteaz\u0103 \xEEn sens opus direc\u021Biei
-    de rota\u021Bie a planetei sale, sugestiv pentru capturarea sa ulterioar\u0103
-    de c\u0103tre gravita\u021Bia lui Neptun. Neptun este numit dup\u0103 zeul roman
-    al m\u0103rilor, Neptun. Acest nume a fost ales pentru a reflecta culoarea albastr\u0103
-    a planetei \u0219i pentru a men\u021Biona puterea \u0219i misterul apelor ad\xE2nci. "
+    cu el. "
+  - "Neptun are cele mai puternice v\xE2nturi din Sistemul Solar, cu viteze care
+    pot dep\u0103\u0219i 2.000 de km/h. Aceste v\xE2nturi puternice sunt cauzate
+    de atmosfera dens\u0103 \u0219i de rota\u021Bia rapid\u0103 a planetei. "
+  - "Neptun are un sistem de inele sub\u021Biri, dar \xEEntunecate, compuse \xEEn
+    principal din particule de praf \u0219i ghea\u021B\u0103. Aceste inele sunt mult
+    mai pu\u021Bin spectaculoase dec\xE2t cele ale lui Saturn, dar sunt \xEEnc\u0103
+    importante pentru \xEEn\u021Belegerea originii \u0219i evolu\u021Biei sistemului
+    s\u0103u de inele. "
+  - "Neptun are cel pu\u021Bin 14 sateli\u021Bi cunoscu\u021Bi, dintre care cel mai
+    cunoscut este Triton. Triton este singurul satelit mare din sistemul solar care
+    orbiteaz\u0103 \xEEn sens opus direc\u021Biei de rota\u021Bie a planetei sale,
+    sugestiv pentru capturarea sa ulterioar\u0103 de c\u0103tre gravita\u021Bia lui
+    Neptun. "
+  - "Neptun este numit dup\u0103 zeul roman al m\u0103rilor, Neptun. Acest nume a
+    fost ales pentru a reflecta culoarea albastr\u0103 a planetei \u0219i pentru
+    a men\u021Biona puterea \u0219i misterul apelor ad\xE2nci. "

@@ -13,26 +13,23 @@ MonoBehaviour:
   m_Name: UranusInfo
   m_EditorClassIdentifier: 
   planetName: Uranus
-  funFact: "De 14 ori mai masiv ca P\u0103m\xE2ntul. Este singura planet\u0103 care
-    orbiteaz\u0103 \xEEn jurul Soarelui \xEEnclinat\u0103 \u201Epe o parte\u201D;
-    \xEEnclina\u021Bia axei de rota\u021Bie este de peste nou\u0103zeci de grade
-    fa\u021B\u0103 de normala la ecliptic\u0103. Planeta are un nucleu mult mai rece
-    dec\xE2t ceilal\u021Bi gigan\u021Bi gazo\u0219i \u0219i cantitatea de c\u0103ldur\u0103
-    radiat\u0103 \xEEn spa\u021Biu este foarte mic\u0103 Uranus are 27 de sateli\u021Bi
-    cunoscu\u021Bi, cei mai mari fiind Titania, Oberon, Umbriel, Ariel \u0219i Miranda.
-    Un an pe Uranus (timpul necesar pentru o orbit\u0103 complet\u0103 \xEEn jurul
-    Soarelui) dureaz\u0103 aproximativ 84 de ani terestre, deoarece se afl\u0103
-    la o distan\u021B\u0103 mare de Soare. \xCEn ciuda acestui lucru, o zi pe Uranus
-    (timpul necesar pentru o rota\u021Bie complet\u0103 pe axa sa) dureaz\u0103 doar
-    aproximativ 17 ore \u0219i 14 minute. Aurorele de pe Uranus sunt pu\u021Bin cunoscute,
-    dar s-au observat mici varia\u021Bii \xEEn lumina UV \u0219i \xEEn emisiile radio,
-    sugestive pentru prezen\u021Ba unor aurore. Acestea sunt diferite de cele de
-    pe alte planete \u0219i sunt cauzate de interac\u021Biunile dintre c\xE2mpul
-    magnetic al planetei \u0219i particulele \xEEnc\u0103rcate \xEEn atmosfer\u0103.
-    Datorit\u0103 \xEEnclina\u021Biei sale neobi\u0219nuite a axei, Uranus experimenteaz\u0103
+  facts:
+  - "Este singura planet\u0103 care orbiteaz\u0103 \xEEn jurul Soarelui \xEEnclinat\u0103
+    \u201Epe o parte\u201D; \xEEnclina\u021Bia axei de rota\u021Bie este de peste
+    nou\u0103zeci de grade fa\u021B\u0103 de normala la ecliptic\u0103. "
+  - "Aurorele de pe Uranus sunt pu\u021Bin cunoscute, dar s-au observat mici varia\u021Bii
+    \xEEn lumina UV \u0219i \xEEn emisiile radio, sugestive pentru prezen\u021Ba
+    unor aurore. Acestea sunt diferite de cele de pe alte planete \u0219i sunt cauzate
+    de interac\u021Biunile dintre c\xE2mpul magnetic al planetei \u0219i particulele
+    \xEEnc\u0103rcate \xEEn atmosfer\u0103. "
+  - "Datorit\u0103 \xEEnclina\u021Biei sale neobi\u0219nuite a axei, Uranus experimenteaz\u0103
     anotimpuri extreme. \xCEn fiecare dintre cele dou\u0103 emisfere, anotimpurile
     dureaz\u0103 aproximativ 21 de ani terestre, cu perioade de iluminare constant\u0103
-    sau \xEEntuneric total.  Uranus este numit\u0103 dup\u0103 zeul grecesc al cerului,
-    Uranus, tat\u0103l titanilor \u0219i bunicul zeilor olimpieni. Acesta este un
-    tribut at\xE2t la descoperirea planetei cu un telescop, c\xE2t \u0219i la pozi\u021Bia
-    sa \xEEndep\u0103rtat\u0103 \xEEn sistemul solar. "
+    sau \xEEntuneric total."
+  - "Datorit\u0103 presiunii \u0219i temperaturii extrem de ridicate, hidrogenul
+    \u0219i metanul sunt supuse unor condi\u021Bii care permit formarea de cristale
+    de diamant sub form\u0103 de precipita\u021Bii. "
+  - "Uranus este numit\u0103 dup\u0103 zeul grecesc al cerului, Uranus, tat\u0103l
+    titanilor \u0219i bunicul zeilor olimpieni. Acesta este un tribut at\xE2t la
+    descoperirea planetei cu un telescop, c\xE2t \u0219i la pozi\u021Bia sa \xEEndep\u0103rtat\u0103
+    \xEEn sistemul solar. "

@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: PlutoInfo
   m_EditorClassIdentifier: 
   planetName: Pluto
-  funFact: "Planeta pitic\u0103 Pluto este cel mai mare obiect cunoscut din centura
-    Kuiper. C\xE2nd a fost descoperit \xEEn 1930, era considerat a noua planet\u0103;
-    aceast\u0103 clasificare s-a schimbat \xEEn 2006, c\xE2nd s-a adoptat o defini\u021Bie
-    formal\u0103 mai riguroas\u0103 a unei planete. Pluto are o orbit\u0103 relativ
-    excentric\u0103, \xEEnclinat\u0103 la 17 grade fa\u021B\u0103 de planul eclipticei.
-    Pluto efectueaz\u0103 dou\u0103 revolu\u021Bii complete \xEEn jurul Soarelui
+  facts:
+  - "Planeta pitic\u0103 Pluto este cel mai mare obiect cunoscut din centura Kuiper. "
+  - "C\xE2nd a fost descoperit \xEEn 1930, era considerat a noua planet\u0103; aceast\u0103
+    clasificare s-a schimbat \xEEn 2006, c\xE2nd s-a adoptat o defini\u021Bie formal\u0103
+    mai riguroas\u0103 a unei planete. "
+  - "Pluto are o orbit\u0103 relativ excentric\u0103, \xEEnclinat\u0103 la 17 grade
+    fa\u021B\u0103 de planul eclipticei. "
+  - "Pluto efectueaz\u0103 dou\u0103 revolu\u021Bii complete \xEEn jurul Soarelui
     la fiecare trei revolu\u021Bii complete ale lui Neptun. "
+  - "Orbita lui Pluto este at\xE2t de eliptic\u0103 \u0219i \xEEnclinat\u0103 \xEEnc\xE2t,
+    pentru o parte a orbitei sale de 248 de ani, este mai aproape de Soare dec\xE2t
+    Neptun. "

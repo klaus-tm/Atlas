@@ -13,32 +13,24 @@ MonoBehaviour:
   m_Name: SaturnInfo
   m_EditorClassIdentifier: 
   planetName: Saturn
-  funFact: "Saturn se distinge prin sistemul s\u0103u de inele u\u0219or de observat
-    de pe P\u0103m\xE2nt. Inelele lui Saturn sunt alc\u0103tuite din particule mici
-    de roc\u0103 \u0219i ghea\u021B\u0103.  Saturn are 83 de sateli\u021Bi confirma\u021Bi;
-    doi dintre ei, Titan \u0219i Enceladus, poart\u0103 semne de activitate geologic\u0103,
-    de\u0219i ace\u0219tia sunt \xEEn mare parte alc\u0103tui\u021Bi din ghea\u021B\u0103.
-    Titan este singurul satelit din sistemul solar care posed\u0103 o atmosfer\u0103
-    substan\u021Bial\u0103.  Saturn este at\xE2t de u\u0219or \xEEnc\xE2t, dac\u0103
-    ar exista un ocean suficient de mare, ar pluti \xEEn el. Are o densitate medie
-    mai mic\u0103 dec\xE2t cea a apei datorit\u0103 compozi\u021Biei sale gazoase.
-    O zi pe Saturn dureaz\u0103 doar aproximativ 10,7 ore, datorit\u0103 rota\u021Biei
+  facts:
+  - "Inelele lui Saturn sunt alc\u0103tuite din particule mici de roc\u0103 \u0219i
+    ghea\u021B\u0103. "
+  - "O zi pe Saturn dureaz\u0103 doar aproximativ 10,7 ore, datorit\u0103 rota\u021Biei
     sale rapide. Un an pe Saturn, adic\u0103 timpul necesar pentru o orbit\u0103
-    complet\u0103 \xEEn jurul Soarelui, dureaz\u0103 aproximativ 29,5 ani tere\u0219tri.
-    Saturn g\u0103zduie\u0219te furtuni masive, unele dintre ele fiind vizibile sub
-    forma unor benzi de nori. O furtun\u0103 gigant\u0103, cunoscut\u0103 sub numele
-    de \"Marea Pat\u0103 Alb\u0103\", apare periodic la aproximativ fiecare 30 de
-    ani \u0219i poate fi mai mare dec\xE2t P\u0103m\xE2ntul. Saturn are un c\xE2mp
-    magnetic puternic, de aproximativ 578 de ori mai puternic dec\xE2t cel al P\u0103m\xE2ntului.
-    Acesta genereaz\u0103 aurore spectaculoase la polii planetei. O forma\u021Biune
-    atmosferic\u0103 bizar\u0103 cunoscut\u0103 sub numele de Hexagonul lui Saturn
-    se afl\u0103 la polul nord al planetei. Aceast\u0103 structur\u0103 cu \u0219ase
-    col\u021Buri este o furtun\u0103 stabil\u0103 \u0219i persistent\u0103, cu un
-    diametru mai mare dec\xE2t P\u0103m\xE2ntul. Atunci c\xE2nd astronomii antici
-    au descoperit planeta Saturn \u0219i au \xEEnceput s\u0103 studieze mi\u0219c\u0103rile
-    sale pe cer, aceasta a fost numit\u0103 dup\u0103 zeul roman Saturnus, \xEEn
-    parte datorit\u0103 culorii sale galbene, care a fost considerat\u0103 asem\u0103n\u0103toare
-    cu culoarea gr\xE2ului matur sau a aurului. De asemenea, mi\u0219c\u0103rile
-    lente ale lui Saturn pe cer au fost asociate cu trecerea lent\u0103 a timpului,
-    reflect\xE2nd leg\u0103tura cu zeul Saturnus \u0219i cu conceptul de timp \xEEn
-    general. "
+    complet\u0103 \xEEn jurul Soarelui, dureaz\u0103 aproximativ 29,5 ani tere\u0219tri. "
+  - "Saturn g\u0103zduie\u0219te furtuni masive, unele dintre ele fiind vizibile
+    sub forma unor benzi de nori. O furtun\u0103 gigant\u0103, cunoscut\u0103 sub
+    numele de \"Marea Pat\u0103 Alb\u0103\", apare periodic la aproximativ fiecare
+    30 de ani \u0219i poate fi mai mare dec\xE2t P\u0103m\xE2ntul. "
+  - "O forma\u021Biune atmosferic\u0103 bizar\u0103 cunoscut\u0103 sub numele de
+    Hexagonul lui Saturn se afl\u0103 la polul nord al planetei. Aceast\u0103 structur\u0103
+    cu \u0219ase col\u021Buri este o furtun\u0103 stabil\u0103 \u0219i persistent\u0103,
+    cu un diametru mai mare dec\xE2t P\u0103m\xE2ntul. "
+  - "Atunci c\xE2nd astronomii antici au descoperit planeta Saturn \u0219i au \xEEnceput
+    s\u0103 studieze mi\u0219c\u0103rile sale pe cer, aceasta a fost numit\u0103
+    dup\u0103 zeul roman Saturnus, \xEEn parte datorit\u0103 culorii sale galbene,
+    care a fost considerat\u0103 asem\u0103n\u0103toare cu culoarea gr\xE2ului matur
+    sau a aurului. De asemenea, mi\u0219c\u0103rile lente ale lui Saturn pe cer au
+    fost asociate cu trecerea lent\u0103 a timpului, reflect\xE2nd leg\u0103tura
+    cu zeul Saturnus \u0219i cu conceptul de timp \xEEn general. "

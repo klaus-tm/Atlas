@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -11,10 +12,10 @@ public class SelectPlanet : MonoBehaviour
     private TMP_Text selectedPlanetText; // Reference to the "Selected planet" TextMesh Pro component
     private TMP_Text planetInfoText; // Reference to the "Planet Info" TextMesh Pro component
     private const float RADIUS = 5f; // Radius in pixels
+    private AudioManager audioManager;
 
     void Start()
     {
-
         // Find the "Selected planet" and "Planet Info" TextMesh Pro components in the Canvas
         if (canvas != null)
         {
@@ -59,9 +60,10 @@ public class SelectPlanet : MonoBehaviour
         {
             Debug.LogError("Earth object not found. Ensure it exists and is named correctly.");
         }
+
+        PlayCurrentPlanetTheme();
     }
 
-    AudioManager audioManager;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -112,7 +114,6 @@ public class SelectPlanet : MonoBehaviour
         }
     }
 
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button
@@ -131,7 +132,6 @@ public class SelectPlanet : MonoBehaviour
         {
             StartCoroutine(SetNewParentAfterDelay(newParent, selectedPlanetText));
             audioManager.StopMusic();
-            PlayCurrentPlanetTheme();
         }
     }
 
@@ -195,6 +195,9 @@ public class SelectPlanet : MonoBehaviour
             DisplayPlanetInfo(newParent);
 
             selectedPlanetText.text = "";
+
+            // Play the theme for the new parent planet
+            PlayCurrentPlanetTheme();
         }
         else
         {
@@ -210,7 +213,8 @@ public class SelectPlanet : MonoBehaviour
             PlanetInfo planetInfo = planetInfoHolder.planetInfo;
             if (planetInfoText != null && planetInfo != null)
             {
-                planetInfoText.text = $"Planeta: {planetInfo.planetName}\nInformatii: {planetInfo.funFact}";
+                string infoType = planet.name == "Sun" ? "Steaua" : "Planeta";
+                planetInfoText.text = $"{infoType}: {planetInfo.planetName}\nInformatii:\n{string.Join("\n", planetInfo.facts)}";
                 Debug.Log($"Displayed info for {planetInfo.planetName}");
             }
             else
@@ -223,5 +227,4 @@ public class SelectPlanet : MonoBehaviour
             Debug.LogError("Planet does not have PlanetInfoHolder component.");
         }
     }
-
 }

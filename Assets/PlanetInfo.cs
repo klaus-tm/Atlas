@@ -7,5 +7,5 @@ using UnityEngine;
 public class PlanetInfo : ScriptableObject
 {
     public string planetName;
-    public string funFact;
+    public List<string> facts;
 }

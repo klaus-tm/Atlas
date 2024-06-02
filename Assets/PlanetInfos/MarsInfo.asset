@@ -13,30 +13,20 @@ MonoBehaviour:
   m_Name: MarsInfo
   m_EditorClassIdentifier: 
   planetName: Marte
-  funFact: "Marte este mai mic dec\xE2t Terra (are 0,107 mase terestre). Are o atmosfer\u0103
-    format\u0103 \xEEn mare parte din dioxid de carbon, cu o presiune la suprafa\u021B\u0103
-    de 6,1 milibari. Suprafa\u021Ba sa, br\u0103zdat\u0103 de vulcani va\u0219ti
-    ca Olympus Mons \u0219i rifturi cum ar fi Valles Marineris, reprezint\u0103 o
-    dovad\u0103 a activit\u0103\u021Bilor geologice care au persistat p\xE2n\u0103
-    relativ recent, cu dou\u0103 milioane de ani \xEEn urm\u0103 Culoarea sa ro\u0219iatic\u0103
-    provine de la oxizii de fier (rugin\u0103) din sol. Marte are doi sateli\u021Bi
-    naturali foarte mici (Deimos \u0219i Phobos) despre care se crede c\u0103 au
-    fost asteroizi captura\u021Bi de gravita\u021Bia planetei. Este ultima planet\u0103
-    de la Soare care face parte din cele patru planete interioare (terestre). Marte
-    g\u0103zduie\u0219te cel mai \xEEnalt munte din Sistemul Solar, Olympus Mons,
-    care are aproximativ 22 de kilometri \xEEn\u0103l\u021Bime. Este de aproape trei
-    ori mai \xEEnalt dec\xE2t Muntele Everest.  Temperatura pe Marte poate varia
-    dramatic, de la aproximativ -125 de grade Celsius \xEEn timpul nop\u021Bii la
-    ecuator, p\xE2n\u0103 la 20 de grade Celsius \xEEn timpul zilei. O zi pe Marte
-    dureaz\u0103 aproximativ 24,6 ore, doar pu\u021Bin mai mult dec\xE2t o zi pe
-    P\u0103m\xE2nt. Un an pe Marte dureaz\u0103 687 de zile terestre, aproape de
-    dou\u0103 ori mai mult dec\xE2t un an pe P\u0103m\xE2nt. Marte este cunoscut\u0103
-    pentru furtunile sale de praf care pot acoperi \xEEntreaga planet\u0103 \u0219i
-    pot dura luni de zile. Aceste furtuni sunt cele mai mari din Sistemul Solar.
-    Exist\u0103 dovezi c\u0103 Marte a avut odat\u0103 r\xE2uri, lacuri \u0219i chiar
-    oceane. \xCEn prezent, apa pe Marte se g\u0103se\u0219te \xEEn principal sub
-    form\u0103 de ghea\u021B\u0103 la poli \u0219i sub suprafa\u021B\u0103. Mars
-    era zeul roman al r\u0103zboiului \u0219i un important protector al Romei. El
-    era echivalentul roman al zeului grec Ares, de\u0219i Mars era adesea v\u0103zut
+  facts:
+  - "Sprafa\u021Ba sa, br\u0103zdat\u0103 de vulcani va\u0219ti ca Olympus Mons \u0219i
+    rifturi cum ar fi Valles Marineris, reprezint\u0103 o dovad\u0103 a activit\u0103\u021Bilor
+    geologice care au persistat p\xE2n\u0103 relativ recent, cu dou\u0103 milioane
+    de ani \xEEn urm\u0103 "
+  - "Culoarea sa ro\u0219iatic\u0103 provine de la oxizii de fier (rugin\u0103) din
+    sol. "
+  - "Marte g\u0103zduie\u0219te cel mai \xEEnalt munte din Sistemul Solar, Olympus
+    Mons, care are aproximativ 22 de kilometri \xEEn\u0103l\u021Bime. Este de aproape
+    trei ori mai \xEEnalt dec\xE2t Muntele Everest. "
+  - "Exist\u0103 dovezi c\u0103 Marte a avut odat\u0103 r\xE2uri, lacuri \u0219i
+    chiar oceane. \xCEn prezent, apa pe Marte se g\u0103se\u0219te \xEEn principal
+    sub form\u0103 de ghea\u021B\u0103 la poli \u0219i sub suprafa\u021B\u0103. "
+  - "Mars era zeul roman al r\u0103zboiului \u0219i un important protector al Romei.
+    El era echivalentul roman al zeului grec Ares, de\u0219i Mars era adesea v\u0103zut
     \xEEntr-o lumin\u0103 mai pozitiv\u0103 \u0219i venerat ca zeu al agriculturii
-    \u0219i p\u0103cii \xEEn perioadele de non-r\u0103zboi."
+    \u0219i p\u0103cii \xEEn perioadele de non-r\u0103zboi. "
