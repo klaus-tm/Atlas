@@ -8,6 +8,7 @@ TagManager:
   - Actors
   - Celestial
   - tutorial
+  - Audio
   layers:
   - Default
   - TransparentFX
