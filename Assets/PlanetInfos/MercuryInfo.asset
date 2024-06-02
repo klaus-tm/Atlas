@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7412b8b96d4e474684226f94fb95257, type: 3}
+  m_Name: MercuryInfo
+  m_EditorClassIdentifier: 
+  planetName: Mercur
+  funFact: "Cea mai mic\u0103 planet\u0103 din Sistemul Solar (0,055 mase terestre).
+    Nu are niciun satelit natural. Atmosfera ei este aproape neobservabil\u0103 \u0219i
+    este format\u0103 din atomi desprin\u0219i de pe suprafa\u021Ba sa de c\u0103tre
+    v\xE2ntul solar. Este cea mai rapid\u0103 planet\u0103, orbit\xE2nd \xEEn jurul
+    Soarelui \xEEn doar 88 de zile. Datorit\u0103 vitezei sale, Mercur a fost numit\u0103
+    dup\u0103 zeul roman al comer\u021Bului \u0219i al c\u0103l\u0103toriilor rapide.
+    O zi pe Mercur (timpul necesar pentru o rota\u021Bie complet\u0103 \xEEn jurul
+    axei sale) dureaz\u0103 59 de zile terestre. Dar un an pe Mercur (timpul necesar
+    pentru o orbit\u0103 complet\u0103 \xEEn jurul Soarelui) dureaz\u0103 doar 88
+    de zile terestre. Asta \xEEnseamn\u0103 c\u0103 o zi pe Mercur este aproape la
+    fel de lung\u0103 ca un an. "

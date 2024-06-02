@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7412b8b96d4e474684226f94fb95257, type: 3}
+  m_Name: VenusInfo
+  m_EditorClassIdentifier: 
+  planetName: Venus
+  funFact: "Este asem\u0103n\u0103toare ca m\u0103rime cu P\u0103m\xE2ntul (0,815
+    mase terestre) \u0219i, la fel ca \u0219i Terra, are o manta sub\u021Bire de
+    silicat deasupra unui nucleu de fier, o atmosfer\u0103 substan\u021Bial\u0103
+    \u0219i indicii ale unei activit\u0103\u021Bi geologice interne. Este cea mai
+    fierbinte planet\u0103, temperaturile de la suprafa\u021B\u0103 dep\u0103\u0219ind
+    400 \xB0C, cel mai probabil din cauza cantit\u0103\u021Bii de gaze cu efect de
+    ser\u0103 din atmosfer\u0103. Venus este adesea numit\u0103 \"sora geam\u0103n\u0103\"
+    a P\u0103m\xE2ntului datorit\u0103 m\u0103rimii \u0219i compozi\u021Biei sale
+    similare. Cu toate acestea, condi\u021Biile de pe Venus sunt foarte diferite
+    de cele de pe P\u0103m\xE2nt. o zi pe Venus este mai lung\u0103 dec\xE2t un an,
+    dur\xE2nd aproximativ 243 de zile terestre, \xEEn timp ce un an dureaz\u0103
+    doar 225 de zile terestre.  Dac\u0103 ai putea sta pe suprafa\u021Ba sa, ai vedea
+    Soarele r\u0103s\u0103rind la vest \u0219i apun\xE2nd la est. Venus se rote\u0219te
+    \xEEn direc\u021Bia opus\u0103 fa\u021B\u0103 de majoritatea planetelor din Sistemul
+    Solar. De\u0219i Mercur este mai aproape de Soare, Venus este cea mai fierbinte
+    planet\u0103 din Sistemul Solar. Temperatura pe suprafa\u021Ba sa poate ajunge
+    p\xE2n\u0103 la 465 de grade Celsius, suficient de fierbinte pentru a topi plumbul.
+    Aceasta se datoreaz\u0103 efectului de ser\u0103 extrem de puternic cauzat de
+    atmosfera sa dens\u0103, plin\u0103 de dioxid de carbon. Norii de pe Venus con\u021Bin
+    acid sulfuric, care plou\u0103 pe planet\u0103. Cu toate acestea, din cauza temperaturilor
+    extreme, ploaia se evapor\u0103 \xEEnainte de a ajunge la suprafa\u021B\u0103.
+    Venus are numero\u0219i vulcani, iar unii dintre ace\u0219tia ar putea fi \xEEnc\u0103
+    activi. Suprafa\u021Ba sa este acoperit\u0103 de c\xE2mpii vaste de lav\u0103
+    solidificat\u0103. Datorit\u0103 condi\u021Biilor extreme de pe Venus, explorarea
+    planetei a fost foarte dificil\u0103. Primele sonde care au reu\u0219it s\u0103
+    aterizeze \u0219i s\u0103 trimit\u0103 date de pe suprafa\u021Ba planetei au
+    fost sondele sovietice din programul Venera \xEEn anii 1960 \u0219i 1970. Acestea
+    au rezistat doar c\xE2teva ore \xEEnainte de a fi distruse de condi\u021Biile
+    dure. Venus este cunoscut\u0103 ca fiind una dintre cele mai str\u0103lucitoare
+    obiecte de pe cerul nostru, dup\u0103 Soare \u0219i Lun\u0103. Este adesea vizibil\u0103
+    dup\u0103 apusul Soarelui sau \xEEnainte de r\u0103s\u0103rit \u0219i este denumit\u0103
+    \"Luceaf\u0103rul de sear\u0103\" sau \"Luceaf\u0103rul de diminea\u021B\u0103\".
+    Planeta Venus este denumit\u0103 dup\u0103 zei\u021Ba roman\u0103 a iubirii \u0219i
+    frumuse\u021Bii, Venus, datorit\u0103 str\u0103lucirii sale intense \u0219i aspectului
+    s\u0103u deosebit pe cerul nop\u021Bii. Venus este unul dintre cele mai str\u0103lucitoare
+    obiecte vizibile de pe P\u0103m\xE2nt, fiind adesea mai str\u0103lucitoare dec\xE2t
+    orice alt\u0103 stea sau planet\u0103. \xCEn mitologia roman\u0103, Venus era
+    asociat\u0103 cu frumuse\u021Bea \u0219i iubirea, a\u0219a c\u0103 numele a fost
+    considerat potrivit pentru aceast\u0103 planet\u0103 luminoas\u0103 \u0219i atr\u0103g\u0103toare.
+    \xCEn multe culturi antice, planeta Venus era privit\u0103 ca un simbol al frumuse\u021Bii
+    \u0219i al iubirii, \u0219i astfel, denumirea sa dup\u0103 zei\u021Ba Venus a
+    fost considerat\u0103 foarte potrivit\u0103. "

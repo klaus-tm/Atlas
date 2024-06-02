@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -10,10 +9,33 @@ public class SelectPlanet : MonoBehaviour
     private GameObject currentParent; // Track the current parent object
     private GameObject newParent;
     private TMP_Text selectedPlanetText; // Reference to the "Selected planet" TextMesh Pro component
+    private TMP_Text planetInfoText; // Reference to the "Planet Info" TextMesh Pro component
     private const float RADIUS = 5f; // Radius in pixels
 
     void Start()
     {
+        // Find the "Selected planet" and "Planet Info" TextMesh Pro components in the Canvas
+        if (canvas != null)
+        {
+            selectedPlanetText = canvas.transform.Find("Selected planet").GetComponent<TMP_Text>();
+            planetInfoText = canvas.transform.Find("Planet Info").GetComponent<TMP_Text>();
+            if (selectedPlanetText == null)
+            {
+                Debug.LogError("Selected planet text not found in Canvas. Ensure it exists and is named correctly.");
+            }
+            if (planetInfoText == null)
+            {
+                Debug.LogError("Planet Info text not found in Canvas. Ensure it exists and is named correctly.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Canvas not assigned. Please assign the Canvas in the Inspector.");
+        }
+
+        selectedPlanetText.text = "";
+        planetInfoText.text = "";
+
         // Set the initial parent to Earth if it exists
         GameObject earth = GameObject.Find("Earth");
         if (earth != null)
@@ -28,25 +50,13 @@ public class SelectPlanet : MonoBehaviour
             {
                 Debug.LogError("Rocket does not have SetRocketParent component.");
             }
+
+            // Display the planet info for the initial parent
+            DisplayPlanetInfo(currentParent);
         }
         else
         {
             Debug.LogError("Earth object not found. Ensure it exists and is named correctly.");
-        }
-
-        // Find the "Selected planet" TextMesh Pro component in the Canvas
-        if (canvas != null)
-        {
-            selectedPlanetText = canvas.transform.Find("Selected planet").GetComponent<TMP_Text>();
-            selectedPlanetText.text = "";
-            if (selectedPlanetText == null)
-            {
-                Debug.LogError("Selected planet text not found in Canvas. Ensure it exists and is named correctly.");
-            }
-        }
-        else
-        {
-            Debug.LogError("Canvas not assigned. Please assign the Canvas in the Inspector.");
         }
     }
 
@@ -125,11 +135,37 @@ public class SelectPlanet : MonoBehaviour
         {
             setRocketParent.SetParent(newParent);
             currentParent = newParent;
+
+            // Display the planet info
+            DisplayPlanetInfo(newParent);
+
             selectedPlanetText.text = "";
         }
         else
         {
             Debug.LogError("Rocket does not have SetRocketParent component.");
+        }
+    }
+
+    private void DisplayPlanetInfo(GameObject planet)
+    {
+        PlanetInfoHolder planetInfoHolder = planet.GetComponent<PlanetInfoHolder>();
+        if (planetInfoHolder != null)
+        {
+            PlanetInfo planetInfo = planetInfoHolder.planetInfo;
+            if (planetInfoText != null && planetInfo != null)
+            {
+                planetInfoText.text = $"Planeta: {planetInfo.planetName}\nInformatii: {planetInfo.funFact}";
+                Debug.Log($"Displayed info for {planetInfo.planetName}");
+            }
+            else
+            {
+                Debug.LogError("PlanetInfo or planetInfoText is null.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Planet does not have PlanetInfoHolder component.");
         }
     }
 }

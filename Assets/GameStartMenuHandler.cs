@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,8 @@ public class mainMenu : MonoBehaviour
     {
         SetInitialAlpha();
         ShowMainMenu();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void SetInitialAlpha()

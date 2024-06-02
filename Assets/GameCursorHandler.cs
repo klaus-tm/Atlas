@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Import the SceneManagement namespace
 using UnityEngine.UI; // Import the UI namespace
 
 public class SpaceMovement : MonoBehaviour
@@ -10,12 +10,15 @@ public class SpaceMovement : MonoBehaviour
     public float zoomSpeed = 10f; // The speed of zoom transition
     public Image crosshairImage; // The crosshair image
     public float zoomedMouseSensitivityFactor = 0.5f; // Factor to scale down the mouse sensitivity while zoomed
+    public GameObject fadePanel; // The fade panel
+    public float fadeDuration = 1f; // Duration of the fade effect
 
     private float defaultFOV;
     private float targetFOV;
     private float xRotation = 0f;
     private bool isPaused = false; // Boolean to track if the game is paused
     private float currentMouseSensitivity;
+    private CanvasGroup fadePanelCanvasGroup;
 
     void Start()
     {
@@ -34,6 +37,17 @@ public class SpaceMovement : MonoBehaviour
         if (crosshairImage != null)
         {
             crosshairImage.enabled = true;
+        }
+
+        // Ensure the fade panel starts transparent
+        if (fadePanel != null)
+        {
+            fadePanelCanvasGroup = fadePanel.GetComponent<CanvasGroup>();
+            if (fadePanelCanvasGroup == null)
+            {
+                fadePanelCanvasGroup = fadePanel.AddComponent<CanvasGroup>();
+            }
+            fadePanelCanvasGroup.alpha = 0f;
         }
     }
 
@@ -77,6 +91,12 @@ public class SpaceMovement : MonoBehaviour
 
         // Smoothly transition to the target FOV
         Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, targetFOV, Time.deltaTime * zoomSpeed);
+
+        // Handle ESC key to trigger fade out and scene transition
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            StartCoroutine(FadeOutAndLoadScene());
+        }
     }
 
     void ToggleCelestialMovement(bool isPaused)
@@ -93,5 +113,24 @@ public class SpaceMovement : MonoBehaviour
                 orbit.ResumeMovement();
             }
         }
+    }
+
+    IEnumerator FadeOutAndLoadScene()
+    {
+        // Fade out
+        if (fadePanelCanvasGroup != null)
+        {
+            float elapsedTime = 0f;
+
+            while (elapsedTime < fadeDuration)
+            {
+                elapsedTime += Time.deltaTime;
+                fadePanelCanvasGroup.alpha = Mathf.Clamp01(elapsedTime / fadeDuration);
+                yield return null;
+            }
+        }
+
+        // Load scene 0
+        SceneManager.LoadScene(0);
     }
 }
